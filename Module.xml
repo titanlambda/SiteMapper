@@ -1,0 +1,12 @@
+
+<module>
+  <name>SiteMapper</name>
+  <version>0.1</version>
+  <display_name>SiteMapper - Mapping of website based on their reference in the response</display_name>
+  <author>Tamaghna Basu</author>
+  <project_home>https://github.com/titanlambda/SiteMapper</project_home>
+  <works_on_session>no</works_on_session>
+  <works_on_url>no</works_on_url>
+  <works_on_finding>no</works_on_finding>
+  <description>This module parses all your proxy logs and create a reference graph of URLs in the HTTP Requests and response which shows which URL is referenced from what URL in the HTML response.</description>
+</module>
