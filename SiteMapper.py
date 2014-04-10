@@ -205,7 +205,7 @@ class SiteMapper(Module):
     self.console.PrintLine("###################################################################################################")
     self.console.PrintLine("######## MAPPING DONE... SAVED IN FILE! ########")
     self.console.PrintLine("###################################################################################################")
-    self.console.PrintLine("The liner mapping graph is saved as " + Config.Path + "\\modules\\SiteMapper\\Mapping_Linear.html.html")
+    self.console.PrintLine("The liner mapping graph is saved as " + Config.Path + "\\modules\\SiteMapper\\Mapping_Linear.html")
     self.console.PrintLine(" ")
     self.console.PrintLine("The circular mapping graph is saved as " + Config.Path + "\\modules\\SiteMapper\\Mapping_Circular.html")
     self.console.PrintLine("###################################################################################################")

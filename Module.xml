@@ -8,5 +8,7 @@
   <works_on_session>no</works_on_session>
   <works_on_url>no</works_on_url>
   <works_on_finding>no</works_on_finding>
-  <description>This module parses all your proxy logs and create a reference graph of URLs in the HTTP Requests and response which shows which URL is referenced from what URL in the HTML response.</description>
+  <description>This module parses all your proxy logs and creates a reference graph of URLs from HTTP requests and responses. It creates 2 html files showing the mappings among the URLs based on their reference from eacch other. From this graph you can figure out which page has sent requests to what other URLs to load its content. 
+  
+  Example: If yahoo.com is loading the pictures from pics.yahoo.com and scripts from resource.yahoo.com, you will see a mapping from yahoo.com to pics.yahoo.com and resource.yahoo.com in the graph. </description>
 </module>
